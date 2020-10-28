@@ -90,8 +90,11 @@ sup {
   top: -0.5em;
 }
 
-img {
+img { 
+  position: absolute;
   border-style: none;
+  left:45px;
+  top:20px;
 }
 
 button,
@@ -105,7 +108,7 @@ textarea {
   margin: 137px; 
   height:auto;
   weight:auto;
-  top:175px;
+  top:210px;
 }
 
 
