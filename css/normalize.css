@@ -5,6 +5,7 @@
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
+  background-color:#4D8FDB;
 }
 
 body {
@@ -37,13 +38,13 @@ pre {
 
 
 a {
-  color: #53575D;
+color: white;
  background-color: transparent;
  position: static;
  width: 385px;
  height: 166px;
  left: 136px;
- top: 245px;
+ top: 265px;
 }
 
 
@@ -67,7 +68,7 @@ samp {
   font-size: 1em; /* 2 */
 }
 
-/
+
 
 small {
   font-size: 80%;
