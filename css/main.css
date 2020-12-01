@@ -1,164 +1,22 @@
-/*Fontes utilizadas*/
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@600&display=swap');
-
-.body{ /*Background do projeto*/
-  background-color: #E5E5E5;
-}
-.h1 {/*Referente ao tÃ­tulo do procure um tÃ©cnico*/
-  position: absolute;
-  width: 385px;
-  height: 166px;
-  left: 136px;
-  top: 120px;
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: 32px;
-  font-size: 15;
-  color:white;}
-
-.h2 {
-  position: absolute;
-  width: 385px;
-  height: 166px;
-  left: 136px;
-  top: 285px;
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: 32px;
-  font-size: 15;
-  color:white;
-}
-
-.h3{
-font-family: Raleway;
-text-decoration:none;
-text-decoration-style: none;
-text-decoration-color: #53575D;
-position: absolute;
-width: 385px;
-height: 166px;
-left: 136px;
-top: 360px;
-font-style: normal;
-font-weight: normal;
-color: white;
-
-}
-
-.button{
-position: static;
-width: 385px;
-height: 166px;
-left: 136px;
-top: 245px;
-border: 2px #53575D;
-background: #FBFCFF;
-}
-
-#map {
- height: 100%;
- }
-
- 
-*{
-  padding: 0%;
-  text-decoration: none;
-  list-style: none;
-  box-sizing: border-box;
-  font-family: Raleway;
-
-}
-
-nav{
-  background: #292B2F;
-  position: absolute;
-  width: 100%;
-  height: 80px;
-  left: 0px;
-  top: 0px;
- 
-}
-nav ul{
-  float: right;
-  margin-right:20px;
-}
-nav ul li{
-  display: inline-block;
-  line-height: 80px;
-  margin: 0 5px;
-}
-nav ul li a{
-  color: white;
-  font-family: Raleway;
-  font-size: 15px;
-  padding: 7px 13px;
-  border-radius: 3px;
-  text-transform: uppercase;
-}
-
-a.active,a:hover{
-  background: #53575D;
-  transition: .5s;
-}
-
-.checkbt{
-font-size: 30px;
-color: white;
-float: right;
-line-height: 80px;
-margin-right:40px ;
-cursor: pointer;
-display: none;
-}
-
-#check{
-  display: none;
-}
-@media(max-width:952px){
-  label.logo{
-    font-size: 30px;
-    padding-left: 50px;
-  }
-  nav ul li a{
-    font-size: 16px;   
-  }
-}
-@media(max-width:858px){
-  .checkbt{
-    display: block;
-  }
-  ul{
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    background: linear-gradient(168deg, #4A90E2 66.41%, #50E3C2 132.56%);    top: 80px;
-    left: -100%;
-    text-align: center;
-    transition: all .5s;
-    z-index: 999999;
-  }
-  nav ul li{
-    display: block;
-    margin: 50px 0;
-    line-height: 30px;
-  }
-  nav ul li a{
-  font-size: 20px;
-  }
-  a:hover,a.active{
-    background: none;
-    color: #292B2F;
-  }
-  #check:checked ~ ul{
-    left: 0;
-  }
-}
-.maps{
+* {
+  margin: 0;
   padding: 0;
-  height: 1000px;
-  width: 900px;
-  float: right;
-  margin-top: 5%;
-  margin-right: 5%;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  color: white;
+  background: #EBF2F5;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body,
+input,
+button,
+textarea {
+  font: 400 1.8rem/1 "Nunito", sans-serif;
 }
